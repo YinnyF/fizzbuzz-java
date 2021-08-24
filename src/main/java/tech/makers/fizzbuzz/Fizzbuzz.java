@@ -4,7 +4,7 @@ public class Fizzbuzz {
     public String generate(Integer upto) {
         String[] strArray = new String[upto];
 
-        // put strings in array of chars
+        // put strings in array of strings
         for (int i = 0; i < upto; i++) {
             if ((i + 1) % 15 == 0) {
                 strArray[i] = "FizzBuzz";
